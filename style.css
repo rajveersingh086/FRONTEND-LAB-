@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bd9797;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto; 
+    background-color: #7cced1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #1ea2ce1a;
+    border: 1px solid #be1616;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    margin-bottom: 20px; /* added margin to h1 */
+}
+h5 {
+    text-align: center;
+    color: #ff0000;
+    border-bottom: 2px solid #007bff;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+h2 {
+    color: #cb1616;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    border-top: 1px solid #000000;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    border-left: 2px solid #d5bc17;
+    margin-bottom: 20px;
+}
+
+.nested-list {
+    list-style-type: none;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    background-color: #bfeab1;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0b0a2f;
+    color: #ff0000;
+}
+
+.table-header {
+    text-align: center;
+    font-weight: bold;
+    background-color: #28a76e;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #28a745;
+    margin-bottom: 10px;
+}
+
+.border-example {
+    border: 2px solid rgb(3, 91, 3);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.background-example {
+    background-color: rgb(229, 91, 91);
+    height: 100px;
+    margin-bottom: 20px; 
+}
+
+.text-formatting {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 20px; 
+}
+
+.controlling-fonts {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: blue;
+    margin-bottom: 20px; 
+}
+
+.margin-example {
+    margin: 20px 0; 
+    padding: 10px;
+    background-color: lightgray;
+    border: 1px solid #ccc;
+}
+
+.outline-example {
+    outline: 2px dashed orange;
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+
+.padding-example {
+    padding: 20px;
+    background-color: lightgray;
+    border: 1px solid hsl(0, 0%, 80%);
+    margin-bottom: 20px;
+}
+
+.inspirational-quote {
+    font-style: italic;
+    color: green;
+    background-color: lightgreen;
+    padding: 10px;
+    border-left: 5px solid green;
+    margin-bottom: 20px;
+}
+
+.learn-more {
+    text-align: center;
+    margin-top: 40px; /
+}
+
+.learn-more button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: rgb(211, 211, 230);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px; 
+    border-top: 1px solid #ffffff;
+}
